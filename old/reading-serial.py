@@ -4,7 +4,7 @@ import time
 import datetime
 
 # Replace 'COM4' with the port your Arduino is connected to
-# Raspi Port ttyACM0
+# Raspi Port /dev/ttyACM0
 arduino_port = 'COM4'
 baud_rate = 9600
 # Open the serial connection
